@@ -50,3 +50,22 @@
     height: 40px;
     margin: 5px;
 }
+
+@media only screen and (max-width: 660px) {
+    
+    .Footer-container {
+        display: inline-block;
+    }  
+    .nav--Footer a {
+        font-size: 14px;
+    }
+    .nav--Footer ul li {
+        margin-right: 20px; }
+    .logo--Footer {
+        text-align: center;
+    }
+    .logo--Footer img {
+        border-radius: 40px;
+    }
+	
+}

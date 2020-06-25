@@ -30,3 +30,27 @@
     height: 300px;
     width: 250px;
 }
+
+@media only screen and (max-width: 768px) {
+
+    .Skills-container {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    .Skills-icon {
+        margin: 20px;
+        padding: 0;
+    }
+    .Skills-icon .Skills_icon-img {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        width: 135px;
+        height: 160px;
+    }
+    .Skills-icon .Skills_icon-img:hover {
+        height: 170px;
+        width: 150px;
+    }
+	
+}

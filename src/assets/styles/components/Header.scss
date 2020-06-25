@@ -63,6 +63,7 @@ figure {
     width: 30px;
     height: 2px;
     background: black;
+    display: none;
 }
 
 @media only screen and (max-width: 769px) {
@@ -75,11 +76,12 @@ figure {
         display: none;
     }
     .Header-container {
-        justify-content: space-around;
+        justify-content: space-between;
     }
     .Header-logo {
         padding: 0;
-        margin: 0;
+        margin: 0 25px;
+
     }
     .Header_toggle-button_line {
         display: block;

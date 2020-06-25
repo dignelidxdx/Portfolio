@@ -47,11 +47,28 @@
   }
 
   @media only screen and (max-width: 660px) {
+    .Presentation-hero {
+        height: auto;
+    }
 	.Presentation-container {
         display: grid;
         grid-template-columns:  1fr;
         grid-row: 1fr 1fr;
       }
+      .Presentation_hero-img img {
+        height: 230px;
+        width: 320px;
+        object-fit: cover;
+        text-align: center;
+        margin-left: 80px;
+        
+    }
+    .Presentation-bottom {
+        display: none;
+    }
+    .Presentation-text h3 {
+        font-size: 24px;
+    }
 
 	
 }
