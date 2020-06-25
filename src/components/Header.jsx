@@ -1,5 +1,6 @@
+/* eslint-disable react/destructuring-assignment */
 /* eslint-disable react/button-has-type */
-/* eslint-disable jsx-a11y/anchor-is-valid */
+
 import React from 'react';
 import '../assets/styles/components/Header.scss';
 import logo from '../assets/static/logo2.png';
@@ -8,7 +9,7 @@ const Header = (props) => (
   <div className='Header'>
     <div className='Header-container'>
       <div className='Header-logo'>
-        <button className='Header_toggle-button'>
+        <button className='Header_toggle-button' onClick={props.drawerClickHandler}>
           <div className='Header_toggle-button_line' />
           <div className='Header_toggle-button_line' />
           <div className='Header_toggle-button_line' />
@@ -18,16 +19,16 @@ const Header = (props) => (
       <nav className='Header-menu'>
         <ol>
           <li>
-            <a href='#'>Skills</a>
+            <a href='/'>Skills</a>
           </li>
           <li>
-            <a href='#'>Proyectos</a>
+            <a href='/'>Proyectos</a>
           </li>
           <li>
-            <a href='#'>Experiencia</a>
+            <a href='/'>Experiencia</a>
           </li>
           <li>
-            <a href='#'>Contáctame</a>
+            <a href='/'>Contáctame</a>
           </li>
         </ol>
       </nav>

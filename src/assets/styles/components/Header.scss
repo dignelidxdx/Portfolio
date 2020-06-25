@@ -38,11 +38,9 @@ figure {
 .Header ol li {
     height: inherit;
   }
-.Header-bar {
-    display: none;
-}
 .Header-logo {
     display: flex;
+    justify-content: space-around;
 }
 
 .Header_toggle-button {
@@ -64,11 +62,27 @@ figure {
 .Header_toggle-button_line {
     width: 30px;
     height: 2px;
-    background: white;
+    background: black;
 }
 
-@media only screen and (max-width: 660px) {
-	
-
+@media only screen and (max-width: 769px) {
+    
+    .Header {
+        padding: 0;
+        width: 100%;
+    }
+    .Header-menu {
+        display: none;
+    }
+    .Header-container {
+        justify-content: space-around;
+    }
+    .Header-logo {
+        padding: 0;
+        margin: 0;
+    }
+    .Header_toggle-button_line {
+        display: block;
+    }
 	
 }

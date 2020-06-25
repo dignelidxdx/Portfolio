@@ -15,35 +15,31 @@ import '../assets/styles/App.scss';
 
 class App extends Component {
 
-  constructor(props) {
-    super(props);
-    this.state = {
-      sideDrawerOpen: false,
-    };
+  // eslint-disable-next-line react/state-in-constructor
+  state = {
+    sideDrawerOpen: false,
   };
 
-  componentDidMount() {
-    // eslint-disable-next-line no-unused-vars
-    const drawerToggleClickHandler = () => {
-      this.setState((prevState) => {
-        return { sideDrawerOpen: !prevState.sideDrawerOpen };
-      });
-    };
-  }
+  drawerToggleClickHandler = (e) => {
+    this.setState((prevState) => {
+      return { sideDrawerOpen: !prevState.sideDrawerOpen };
+    });
+  };
+
+  backdropClickHandler = () => {
+    this.setState({ sideDrawerOpen: false });
+  };
 
   render() {
-    let sideDrawer;
     let backdrop;
 
-    // eslint-disable-next-line react/destructuring-assignment
     if (this.state.sideDrawerOpen) {
-      sideDrawer = <SideDrawer />;
-      backdrop = <Backdrop />;
+      backdrop = <Backdrop click={this.backdropClickHandler} />;
     }
     return (
       <div className='App'>
         <Header drawerClickHandler={this.drawerToggleClickHandler} />
-        {sideDrawer}
+        <SideDrawer show={this.state.sideDrawerOpen} />
         {backdrop}
         <Presentation />
         <Skills />
