@@ -1,11 +1,17 @@
-.header {
-    background-color: black;
-    color: white;
+@import "../Vars.scss";
+@import "../Media.scss";
+
+.Header {
+    padding: 10px;
+    background-color: $secundary-color;
+    color: $background-color;
+    border-bottom: 1px solid black;
+}
+
+.Header-container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    border-bottom: 1px solid black;
+    justify-content: space-around;
 }
 
 ol {
@@ -16,28 +22,53 @@ ol {
 figure {
     margin: 0;
 }
-.header a {
-    color: white;
+.Header a {
+    color: $background-color;
     text-decoration: none;
-    display: flex;
-    align-items: center;
-    height: inherit;
     padding: 0 10px;
 }
-.header a:hover {
+.Header a:hover {
     color: #8841DA;
     text-decoration: underline;
 }
-.menu {
-    height: inherit;
-}
-.header ol {
+.Header ol {
     display: flex;
     height: inherit;
   }
-  .header ol li {
+.Header ol li {
     height: inherit;
   }
-.menu-bar {
+.Header-bar {
     display: none;
+}
+.Header-logo {
+    display: flex;
+}
+
+.Header_toggle-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 24px;
+    width: 36px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Header-button:focus {
+    outline: none;
+}
+.Header_toggle-button_line {
+    width: 30px;
+    height: 2px;
+    background: white;
+}
+
+@media only screen and (max-width: 660px) {
+	
+
+	
 }

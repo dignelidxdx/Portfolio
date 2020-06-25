@@ -4,7 +4,7 @@ import '../assets/styles/components/WorkExperience.scss';
 
 const WorkExperience = () => (
   <section className='hero'>
-    <h4 className='habilidades'>Experiencia Laboral</h4>
+    <h4 className='WorkExperience-ability'>Experiencia Laboral</h4>
     <hr />
 
     <div className='container' />

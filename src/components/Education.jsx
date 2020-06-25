@@ -4,7 +4,7 @@ import '../assets/styles/components/Education.scss';
 
 const Education = () => (
   <section className='hero'>
-    <h4 className='habilidades'>Educación</h4>
+    <h4 className='Education-ability'>Educación</h4>
     <hr />
     <div className='container' />
   </section>

@@ -1,0 +1,32 @@
+.Skills {
+    justify-content: center;
+}
+.Skills-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.Skills-ability {
+    margin-top: 60px;
+    text-align: center;
+    font-size: 30px;
+
+}
+.Skills-icon {
+    margin: 40px;
+    padding: 50px 0;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+}
+
+.Skills-icon .Skills_icon-img {
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 230px;
+}
+.Skills-icon .Skills_icon-img:hover {
+    height: 300px;
+    width: 250px;
+}

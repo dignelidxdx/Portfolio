@@ -4,7 +4,7 @@ import '../assets/styles/components/Certificate.scss';
 
 const Certificate = () => (
   <section className='hero'>
-    <h4 className='habilidades'>Certificados</h4>
+    <h4 className='Certificate-ability'>Certificados</h4>
     <hr />
     <div className='container'>   </div>
   </section>

@@ -1,34 +1,33 @@
+/* eslint-disable react/button-has-type */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
-
+import '../assets/styles/components/Header.scss';
 import logo from '../assets/static/logo2.png';
 
-const Header = () => (
-  <div className='header'>
-    <div className='menu-bar'>
-      <a href='#' className='bt-menu'>
-        Menu
-        <p> </p>
-        <span className='icon-menu' />
-      </a>
-    </div>
-    <div className='container'>
-      <div className='logo'>
+const Header = (props) => (
+  <div className='Header'>
+    <div className='Header-container'>
+      <div className='Header-logo'>
+        <button className='Header_toggle-button'>
+          <div className='Header_toggle-button_line' />
+          <div className='Header_toggle-button_line' />
+          <div className='Header_toggle-button_line' />
+        </button>
         <img height='60' src={logo} alt='' />
       </div>
-      <nav className='menu'>
+      <nav className='Header-menu'>
         <ol>
           <li>
-            <a href='#'>Profesional</a>
+            <a href='#'>Skills</a>
           </li>
           <li>
-            <a href='#'>Práctico</a>
+            <a href='#'>Proyectos</a>
           </li>
           <li>
-            <a href='#'>Logros</a>
+            <a href='#'>Experiencia</a>
           </li>
           <li>
-            <a href='#'>Portafolio</a>
+            <a href='#'>Contáctame</a>
           </li>
         </ol>
       </nav>

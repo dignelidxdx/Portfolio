@@ -1,0 +1,48 @@
+@import "../Vars.scss";
+@import "../Media.scss";
+
+.Project-ability {
+    margin: 0;
+    text-align: center;
+    font-size: 30px;
+}
+.Project-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.event-videoContainer video {  
+width: 450px;
+height: 300px;
+}
+.event { 
+margin: 10%;
+display: inline-block;
+text-align: center;
+border-radius: 10px;
+overflow: hidden;
+background: $secundary-color;
+}
+.event img {
+    margin-top: 20px;
+    width: 450px;
+    height: 280px;
+}
+.event-detail {
+margin: 20px 40px;
+margin-top: -15px;
+background-color: white;
+position: relative;
+padding: 20px;
+text-align: center;
+}
+.event-description {
+text-align: center;
+}
+
+.event-url {
+color: $background-color;
+border: 1px solid;
+padding: 5px 20px;
+text-decoration: none;
+border-radius: 5px;
+}
