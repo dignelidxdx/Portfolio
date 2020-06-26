@@ -9,10 +9,10 @@ import github from '../assets/static/github.png';
 const Footer = () => (
   <footer className='Footer'>
     <div className='Footer-container'>
-      <div className='logo--Footer'>
-        <img src={logo} />
-      </div>
       <nav className='nav--Footer'>
+        <div className='logo--Footer'>
+          <img src={logo} />
+        </div>
         <ul>
           <li><a href='#'>About me</a></li>
           <li><a href='#'>Skills</a></li>
@@ -24,11 +24,19 @@ const Footer = () => (
       <div className='nav--social'>
         <ul>
           <li>Follow Me</li>
-          <img className='Footer-img' src={whatsapp} alt='number cellphone' />
-          <img className='Footer-img' src={linkedin} alt='linkedin' />
-          <img className='Footer-img' src={github} alt='github' />
+          <a href='api.whatsapp.com/send?phone=5491173667901'><img className='Footer-img' src={whatsapp} alt='number cellphone' /></a>
+          <a href='api.whatsapp.com/send?phone=5491173667901'><img className='Footer-img' src={linkedin} alt='linkedin' /></a>
+          <a href='api.whatsapp.com/send?phone=5491173667901'><img className='Footer-img' src={github} alt='github' /></a>         
         </ul>
       </div>
+
+    </div>
+    <div className='Footer-design'>
+      <p>
+        Digneli© Designed with ❤️ by
+        {' '}
+        <a href='https://twitter.com/DavilaDigneli'>@DavilaDigneli</a>
+      </p>
     </div>
 
   </footer>

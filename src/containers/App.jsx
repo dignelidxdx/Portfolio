@@ -1,4 +1,5 @@
-import React, { Component } from 'react';
+import React, { Component, PureComponent } from 'react';
+import jsPDF from 'jspdf';
 import Header from '../components/Header';
 import Presentation from '../components/Presentation';
 import Skills from '../components/Skills';

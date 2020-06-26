@@ -2,73 +2,60 @@
     margin: 0;
     text-align: center;
     font-size: 30px;
-
 }
+.Presentation-container {
+    box-sizing: border-box;
+    flex: 1;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
 .Presentation-text {
+    box-sizing: border-box;
     padding: 40px 50px;
     text-align: center;
 }
-
-
 .Presentation-hero {
-    height: 400px;
+    box-sizing: border-box;
     background-color: #ebebeb;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 .Presentation_hero-img {
-    position:relative;
-    height:300px;
-    width: 500px;
+    box-sizing: border-box;
     object-fit: cover;
+    padding: 30px;
 }
 .Presentation_hero-img img {
-    position:absolute;
-    left:0;
-    -webkit-transition: opacity 1s ease-in-out;
-    -moz-transition: opacity 1s ease-in-out;
-    -o-transition: opacity 1s ease-in-out;
-    transition: opacity 1s ease-in-out;
-}
-.Presentation_hero-img img.top:hover {
-    opacity: 0;
-}
-.Presentation-container {
+    box-sizing: border-box;
     width: 100%;
-    flex: 1;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: inherit;
-    align-items: inherit;
-    height: inherit;
-    flex-wrap: inherit;
-  }
+    
+}
 
-  @media only screen and (max-width: 660px) {
+
+  @media only screen and (max-width: 768px) {
+
     .Presentation-hero {
-        height: auto;
+        height: 100%;
+        width: 100%;
     }
 	.Presentation-container {
-        display: grid;
-        grid-template-columns:  1fr;
-        grid-row: 1fr 1fr;
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
       }
-      .Presentation_hero-img img {
-        height: 230px;
-        width: 320px;
-        object-fit: cover;
-        text-align: center;
-        margin-left: 80px;
-        
-    }
-    .Presentation-bottom {
-        display: none;
-    }
+
+
     .Presentation-text h3 {
-        font-size: 24px;
+        font-size: 1.2rem;
     }
+    .Presentation-text {
+        margin: 0;
+        padding: 20px;
+    }
+    
 
 	
 }
