@@ -43,9 +43,12 @@
     color: #3f579a;
     margin-right: 20px;
 }
-.nav--social a {
-    color: #3f579a;
-}
+.nav--social a:hover {
+    background-color: #f59784;
+    border-radius: 20px;
+ }
+
+
 .logo--Footer img {
     height: 80px;
     border-radius: 50px;

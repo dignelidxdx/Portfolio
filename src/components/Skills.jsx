@@ -4,6 +4,9 @@ import '../assets/styles/components/Skills.scss';
 import skillOne from '../assets/static/html-skill.png';
 import skillTwo from '../assets/static/css-skill.png';
 import skillThree from '../assets/static/javascript-skill.png';
+import skillFour from '../assets/static/java.png';
+import skillFive from '../assets/static/apirest.png';
+import skillSix from '../assets/static/mysql.png';
 
 const Skills = () => (
   <section className='Skills'>
@@ -12,15 +15,27 @@ const Skills = () => (
     <section className='Skills-container'>
       <div className='Skills-icon'>
         <img className='Skills_icon-img' src={skillOne} alt='' />
-        <h2>HTML 5</h2>
+        <strong>HTML 5</strong>
       </div>
       <div className='Skills-icon'>
         <img className='Skills_icon-img' src={skillTwo} alt='' />
-        <h2>CSS 3</h2>
+        <strong>CSS 3</strong>
       </div>
       <div className='Skills-icon'>
         <img className='Skills_icon-img' src={skillThree} alt='' />
-        <h2>JavaScript</h2>
+        <strong>JavaScript</strong>
+      </div>
+      <div className='Skills-icon'>
+        <img className='Skills_icon-img' src={skillFour} alt='' />
+        <strong>Java-SpringBoot</strong>
+      </div>
+      <div className='Skills-icon'>
+        <img className='Skills_icon-img' src={skillFive} alt='' />
+        <strong>API REST</strong>
+      </div>
+      <div className='Skills-icon'>
+        <img className='Skills_icon-img' src={skillSix} alt='' />
+        <strong>MYSQL</strong>
       </div>
     </section>
   </section>

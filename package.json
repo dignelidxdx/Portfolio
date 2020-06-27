@@ -21,6 +21,7 @@
     "eslint-plugin-react": "^7.20.0",
     "jspdf": "1.5.3",
     "react": "^16.13.1",
+    "react-bootstrap": "1.0.1",
     "react-dom": "^16.13.1"
   },
   "devDependencies": {

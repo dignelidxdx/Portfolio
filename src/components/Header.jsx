@@ -18,18 +18,45 @@ const Header = (props) => (
       </div>
       <nav className='Header-menu'>
         <ol>
-          <li>
-            <a href='/'>Skills</a>
-          </li>
-          <li>
-            <a href='/'>Proyectos</a>
-          </li>
-          <li>
-            <a href='/'>Experiencia</a>
-          </li>
-          <li>
-            <a href='/'>Contáctame</a>
-          </li>
+          <div className='header__menu'>
+            <div className='header__menu--profile'>
+              <p tabIndex='0'>¿Quién soy?</p>
+            </div>
+            <ul>
+              <li><a href='/'>Mi Historia</a></li>
+              <li><a href='/'>Conóceme</a></li>
+              <li><a href='/'>Skills</a></li>
+            </ul>
+          </div>
+          <div className='header__menu'>
+            <div className='header__menu--profile'>
+              <p tabIndex='0'>Proyectos</p>
+            </div>
+            <ul>
+              <li><a href='/'>Mumi</a></li>
+              <li><a href='/'>CMDT</a></li>
+            </ul>
+          </div>
+          <div className='header__menu'>
+            <div className='header__menu--profile'>
+              <p tabIndex='0'>Experiencia</p>
+            </div>
+            <ul>
+              <li><a href='/'>2020</a></li>
+              <li><a href='/'>2019</a></li>
+              <li><a href='/'>2018</a></li>
+              <li><a href='/'>2017</a></li>
+            </ul>
+          </div>
+          <div className='header__menu'>
+            <div className='header__menu--profile'>
+              <p tabIndex='0'>Contáctame</p>
+            </div>
+            <ul>
+              <li><a href='/'>Registrate</a></li>
+              <li><a href='/'>Solo Mensaje</a></li>
+            </ul>
+          </div>
         </ol>
       </nav>
     </div>

@@ -1,9 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React, { PureComponent } from 'react';
+import React from 'react';
 import '../assets/styles/components/Presentation.scss';
 import profesional from '../assets/static/profesional-photo.png';
-import presentation from '../assets/static/presentation.jpg';
-import jsPDF from 'jspdf';
 
 const Presentation = () => (
   <section className='Presentation-hero'>
@@ -19,25 +17,23 @@ const Presentation = () => (
           {' '}
           <br />
           {' '}
-          y soy aprendiz de todas ellas.
+          y soy aprendiz de su infinito mundo.
           <br />
           {' '}
           Actualmente
-          <strong> Frontend </strong>
+          <strong> Frontend Developer </strong>
           {' '}
           con HTML5, CSS3, JS, React (próximamente)
           <br />
           {' '}
           y
-          <strong> Backend</strong>
+          <strong> Backend Developer</strong>
           {' '}
           con Java/SpringBoot/Hibernate, MySQL y Postman.
 
         </h3>
       </div>
-
       <div className='Presentation_hero-img'>
-
         <img
           className='Presentation-top'
           src={profesional}

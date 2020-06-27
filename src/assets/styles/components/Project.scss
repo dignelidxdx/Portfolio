@@ -41,11 +41,17 @@ text-align: center;
 }
 
 .event-url {
-color: $background-color;
-border: 1px solid;
-padding: 5px 20px;
-text-decoration: none;
-border-radius: 5px;
+    background-color: $background-color;
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    border-radius: 5px;
+    color: $secundary-color;
+}
+.event-url:hover {
+
+    background-color: $secundary-color;
+    color: $background-color;
 }
 
 @media only screen and (max-width: 660px) {

@@ -2,9 +2,9 @@
     justify-content: center;
 }
 .Skills-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 .Skills-ability {
     margin-top: 60px;
@@ -13,17 +13,19 @@
 
 }
 .Skills-icon {
-    margin: 40px;
-    padding: 50px 0;
-    display: inline-block;
+    margin: 0;
+    padding: 0;
+    display:  inline-block;
     text-align: center;
     align-items: center;
 }
-
+.Skills-icon strong {
+    font-size: 14px;
+}
 .Skills-icon .Skills_icon-img {
     justify-content: center;
     align-items: center;
-    width: 200px;
+    width: 210px;
     height: 230px;
 }
 .Skills-icon .Skills_icon-img:hover {
@@ -35,7 +37,8 @@
 
     .Skills-container {
         display: grid;
-        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
     }
     .Skills-icon {
         margin: 20px;
@@ -53,4 +56,13 @@
         width: 150px;
     }
 	
+}
+@media only screen and (max-width: 375px) {
+
+    .Skills-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
 }

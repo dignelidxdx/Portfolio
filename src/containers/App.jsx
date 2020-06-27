@@ -6,6 +6,7 @@ import Skills from '../components/Skills';
 import Project from '../components/Project';
 import WorkExperience from '../components/WorkExperience';
 import Education from '../components/Education';
+import GeneratePDF from '../components/GeneratePDF';
 import Workshop from '../components/Workshop';
 import Certificate from '../components/Certificate';
 import Footer from '../components/Footer';
@@ -43,6 +44,7 @@ class App extends Component {
         <SideDrawer show={this.state.sideDrawerOpen} />
         {backdrop}
         <Presentation />
+        <GeneratePDF />
         <Skills />
         <Project />
         <WorkExperience />

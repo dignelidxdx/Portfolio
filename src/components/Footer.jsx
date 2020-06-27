@@ -14,22 +14,21 @@ const Footer = () => (
           <img src={logo} />
         </div>
         <ul>
-          <li><a href='#'>About me</a></li>
-          <li><a href='#'>Skills</a></li>
-          <li><a href='#'>Proyectos</a></li>
-          <li><a href='#'>Experiencia</a></li>
-          <li><a href='#'>Contáctame</a></li>
+          <li><a href='/'>About me</a></li>
+          <li><a href='/'>Skills</a></li>
+          <li><a href='/'>Proyectos</a></li>
+          <li><a href='/'>Experiencia</a></li>
+          <li><a href='/'>Contáctame</a></li>
         </ul>
       </nav>
       <div className='nav--social'>
         <ul>
           <li>Follow Me</li>
           <a href='api.whatsapp.com/send?phone=5491173667901'><img className='Footer-img' src={whatsapp} alt='number cellphone' /></a>
-          <a href='api.whatsapp.com/send?phone=5491173667901'><img className='Footer-img' src={linkedin} alt='linkedin' /></a>
-          <a href='api.whatsapp.com/send?phone=5491173667901'><img className='Footer-img' src={github} alt='github' /></a>         
+          <a href='https://www.linkedin.com/in/digneli-mariet-d%C3%A1vila-ramones-497b9865/'><img className='Footer-img' src={linkedin} alt='linkedin' /></a>
+          <a href='https://github.com/dignelidxdx'><img className='Footer-img' src={github} alt='github' /></a>
         </ul>
       </div>
-
     </div>
     <div className='Footer-design'>
       <p>

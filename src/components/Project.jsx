@@ -15,9 +15,9 @@ const Project = () => (
           <video className='html-video' src={video} controls />
         </figure>
         <div className='event-detail'>
-          <h3 className='event-title'>Mumi nació por una Hackaton</h3>
-          <p className='event-description'>El evento fue organizado por Globant 2020, donde mas de 80 equipos participaron en una hackaron, estuve con un equipo formada por 6 chicas en programación.</p>
-          <a className='event-url' href=''>Ver mas</a>
+          <h3 className='event-title'>Mumi - Nació por la GlobHack LATAM 2020</h3>
+          <p className='event-description'>El evento fue organizado por Globant y Belatrix, donde mas de 80 equipos participaron en una hackaton, estuve con un equipo formada por 5 chicas en programación y la experiencia fue gratificante.</p>
+          <a className='event-url' href=''>Ver más</a>
         </div>
       </article>
       <article className='event'>
@@ -27,7 +27,7 @@ const Project = () => (
         <div className='event-detail'>
           <h3 className='event-title'>CMDT - Propuesta para registro de consultas</h3>
           <p className='event-description'>Tuve un cliente que me solicito un registro de consultas para pacientes, por ahora esta desarrollado en Google Spreadsheets.</p>
-          <a className='event-url' href='' target='_blank'>Ver mas</a>
+          <a className='event-url' href='' target='_blank'>Ver más</a>
         </div>
       </article>
     </section>
