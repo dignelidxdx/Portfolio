@@ -1,5 +1,5 @@
 /* eslint-disable react/react-in-jsx-scope */
-import Carousel from 'react-bootstrap/Carousel'
+import Carousel from 'react-bootstrap/Carousel';
 
 function ControlledCarousel() {
   const [index, setIndex] = useState(0);

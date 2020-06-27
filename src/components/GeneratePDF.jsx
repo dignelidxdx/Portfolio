@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react';
 import '../assets/styles/components/GeneratePDF.scss';
-import jsPDF from 'jspdf';
+// import jsPDF from 'jspdf';
 
 class GeneratePDF extends PureComponent {
 
@@ -10,8 +10,8 @@ class GeneratePDF extends PureComponent {
       <div className='GeneratePDF'>
         <h6 className='GeneratePDF-text'>
           {' '}
-          Para descargar mi CV has 
-          <a href='https://drive.google.com/drive/folders/1bx_CiPiz4EWl1jCk5-HEusI2fop76Zbf?usp=sharing'> Click acá </a>
+          Para descargar mi CV has
+          <a href='https://drive.google.com/drive/folders/1bx_CiPiz4EWl1jCk5-HEusI2fop76Zbf?usp=sharing'> Click acá  </a>
           {' '}
           (español e inglés)
         </h6>
