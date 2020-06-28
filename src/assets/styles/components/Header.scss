@@ -77,6 +77,10 @@ figure {
     display: flex;
     cursor: pointer; }
 
+.header__menu--profile p:hover {
+    color: black;
+    text-decoration: underline;
+}
 
 .Header_toggle-button {
     display: flex;
